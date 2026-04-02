@@ -1,5 +1,6 @@
 # bda-modulo-1-evaluacion-final-Ani-sabina
-## Funcion agegregar producto
+
+## Funcion agegregar producto:
 He creado una funcion que agrega productos a mi inventario.
 para poder agregar productos necesita saber el nombre, precio y cantidad que son los argumentos de la funcion.
 mi funcion presupone que el producto que le voy a dar es falso (que no existe) creando una variable que diga producto_existe es igual a falso (tipo booleana)
@@ -10,5 +11,9 @@ si es verdad, pasaran 2 cosas: una sera que la variable del producto existe (que
 la ultima parte del codigo lo que hace es preguntarse si ¿el producto existe es falso? y si sigue siendo falso ya que se lo hemos dicho al inicio, lo que hace es ejecutar el append, que será añadir el producto nuevo, y para eso necesito tener todos los argumentos de mi inventario.
 si el producto existe es verdadero no ejecutara el append
 
-## Funcion .... 
+## Funcion ver inventario:
+He creado una funcion para poder ver el inventario por pantalla.
+inicio creando un bucle for para que recorra por mi inventario, recorre cada diccionario guardado.
+una vez que el diccionarios le pido que lo imprima con la funcion print.
+le pido a print que me muestre las claves que escribo manualmente y los valores del diccionario, para que se muestre los valores le al producto que me muestre el valor de las claves nombre, precio y cantidad.
 
