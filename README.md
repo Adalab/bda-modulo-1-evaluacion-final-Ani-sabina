@@ -35,4 +35,9 @@ a continuacion realizo un bucle for para que recorra por el inventario lo que le
 
 por ultimo con otro if el programa tambien pregunta si el producto exite es falso como se señala al inicio entonces pedimos que salga por pantalla el mensaje de "este producto no existe".
 
-# 2.6 
+# 2.6 Funcion valor total:
+he creado una funcion para calcular el valor total del inventario y para eso, primero he creado una variable donde va a ir almacenado la multiplicacion que haga el blue for al pasasr por el precio y la cantidad del producto del inventario.
+una vez tengo almacenado la multiplicacion del primer producto como bucle for sigue iterando sobre los demas productos lo que hago es sumar el nuevo valor del producto al total que lleva registrada valor total, que se ira sumando en cada iteracion.
+para finalizar he creado un print fuera del bucle para que me imprima por pantalla el valor total.
+
+# 2.7 
