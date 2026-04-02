@@ -17,3 +17,15 @@ inicio creando un bucle for para que recorra por mi inventario, recorre cada dic
 una vez que el diccionarios le pido que lo imprima con la funcion print.
 le pido a print que me muestre las claves que escribo manualmente y los valores del diccionario, para que se muestre los valores le al producto que me muestre el valor de las claves nombre, precio y cantidad.
 
+### Funcion buscar producto:
+he creado una funcion para poder buscar en el inventario si esta el producto y en caso de estar que salga por pantalla los detalles del producto buscado.
+primero creo un bucle for que recorrera dentro del inventario producto por producto.
+con el if le digo al programa que si el producto nombre es igual al nombre que he solicitado me haga un print con los valores.
+
+#### Funcion actualizar stock:
+He creado una funcion para actualizar el stock de mi inventario.
+primero pongo que por defecto el producto = Falso (no existe).
+creo un bucle for para recorrer el inventario y al preguntar por el nombre si lo encuentra ahora producto existe es True, al ser verdadero pasa otra cosa que es actualizar el inventario por eso la cantidad actual del producto es igual a la cantidad mas la nueva cantidad registrada.
+por ultimo la funcion pregunta si el producto es falso y al ser falso como se indica al inicio procede a imprimir por pantalla el mensaje de Este producto no existe entre comillas porque quiero que salga ese mensaje tal cual.
+
+##### Funcion eliminar producto:
